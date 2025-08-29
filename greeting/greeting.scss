@@ -1,0 +1,30 @@
+.greeting {
+  position: relative;
+
+  &__img {
+    z-index: 0;
+  }
+
+  &__container {
+    position: absolute;
+    z-index: 1;
+    top: 227px;
+    left: 60px;
+    color: white;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 16px;
+  }
+
+  &__button {
+    margin-top: 32px;
+    width: 220px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 16px 8px;
+  }
+}

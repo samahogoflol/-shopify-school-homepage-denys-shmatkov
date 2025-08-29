@@ -10,21 +10,131 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <script type="module" src="/index.js"></script>
   </head>
   <body>
     <header class="header">
       <nav class="header__nav">
-        <div class="header__nav__div">
-          <img src="/imgs/StellarSoft_Icon.svg" alt="" />
-          <p>Stellar Soft</p>
-        </div>
-        <ul class="header__nav__ul">
-          <li>s</li>
-          <li>d</li>
-          <li>d</li>
-          <li>d</li>
+        <img src="/imgs/Logo.png" alt="Компанія 'Stellar Soft'" />
+        <ul class="header__ul">
+          <li>New & Featured</li>
+          <li>Men</li>
+          <li>Women</li>
+          <li>Kids</li>
         </ul>
+        <img src="/imgs/Cart Icon.svg" alt="Корзина товарів" />
       </nav>
     </header>
+
+    <main>
+      <section class="greeting">
+        <img class="greeting__img" src="/imgs/greetingInfoImg.svg" alt="More than just shoes — it’s a part of your story." />
+        <div class="greeting__container">
+          <h1 class="greeting__title">
+            MORE THAH JUST SHOES — <br />
+            IT’S A PART OF YOUR <br />
+            STORY.
+          </h1>
+          <p class="greeting__text">
+            Original sneakers from Nike and other top brands that make every step <br />
+            feel special.
+          </p>
+          <button class="greeting__button" aria-haspopup="dialog" aria-expanded="false">Shop the Collection</button>
+        </div>
+      </section>
+
+      <section class="product-slider">
+        <h2 class="produck-slider__title">Featured Collection</h2>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="product-card">
+                <img src="/imgs/sliderImgs/firstSLide.svg" alt="" />
+              </div>
+              <div class="product-info">
+                <p>Nike Streakfly 2</p>
+                <p class="product-price">$300.00</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product-card">
+                <img src="/imgs/sliderImgs/secondSlide.svg" alt="" />
+              </div>
+              <div class="product-info">
+                <p>Nike Pegasus Premium</p>
+                <p class="product-price">$350.00</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product-card">
+                <img src="/imgs/sliderImgs/thirdSlide.svg" alt="" />
+              </div>
+              <div class="product-info">
+                <p>Nike Pegasus 41</p>
+                <p class="product-price">$280.00</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product-card">
+                <img src="/imgs/sliderImgs/fourthSlide.svg" alt="" />
+              </div>
+              <div class="product-info">
+                <p>Nike Revolution 7</p>
+                <p class="product-price">$440.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="custom-swiper-prev">
+          <img src="/imgs/sliderImgs/Arrow.svg" alt="" width="10" />
+        </button>
+        <button class="custom-swiper-next">
+          <img src="/imgs/sliderImgs/Arrow.svg" alt="" width="10" />
+        </button>
+      </section>
+
+      <section class="faq">
+        <h2 class="faq__header">Frequently asked questions</h2>
+        <p class="faq__title">Answers to our most frequently asked questions are just one click away.</p>
+
+        <div class="faq__container">
+          <div class="faq__item is-active">
+            <div class="faq__question">
+              What are Nike's delivery options?
+              <div class="faq__icon active-btn"></div>
+            </div>
+            <p class="is-active-text faq__answer">someting text</p>
+          </div>
+
+          <div class="faq__item">
+            <div class="faq__question">
+              What is Nike's returns policy?
+              <div class="faq__icon active-btn"></div>
+            </div>
+            <p class="is-active-text faq__answer">
+              When you shop Nike online, either in the Nike App or on Nike.com, you can return items that are unworn and unwashed and
+              still have their product tags attached within 30 days of purchase (some exceptions apply). That includes custom Nike By
+              You sneakers.
+            </p>
+          </div>
+          <div class="faq__item">
+            <div class="faq__question">
+              Where is my Nike order?
+              <div class="faq__icon active-btn"></div>
+            </div>
+            <p class="is-active-text faq__answer">someting text</p>
+          </div>
+          <div class="faq__item">
+            <div class="faq__question">
+              How do I find the right size and fit?
+              <div class="faq__icon active-btn"></div>
+            </div>
+            <p class="faq__answer">someting text</p>
+          </div>
+        </div>
+      </section>
+
+      <section class=""></section>
+    </main>
   </body>
 </html>

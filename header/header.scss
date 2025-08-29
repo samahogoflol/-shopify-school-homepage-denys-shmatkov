@@ -1,17 +1,17 @@
 .header {
   &__nav {
     display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0 60px 0 60px;
+  }
+  &__ul {
+    display: flex;
+    gap: 32px;
+    color: #111;
   }
   &__div {
-    background-color: black;
-    width: 400;
-    height: 400;
-  }
-  &__nav__ul {
     display: flex;
-  }
-  &__nav_div {
-    display: flex;
-    justify-content: space-between;
   }
 }
